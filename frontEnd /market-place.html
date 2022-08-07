@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" modelType="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/market.js"></script>
+<body>
+    <style>
+    .responsive {
+        height: auto;
+        width: 100%;
+      }
+    .footer {
+        background-image: url("footer.png");
+        background-repeat:no-repeat;
+        background-size:cover;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(-270%);
+}
+      </style>
+      
+      
+      <div>
+        <img src="banner.png" alt="Nature" class="responsive"><hr><br><br>
+      </div>
+
+
+    <div class="container">
+
+    <div style="display: flex; justify-content: space-between">
+        <h2>Market</h2>
+        <a href="congrats.html" class="btn btn-warning" id="checkout-btn" style="height: 35px; margin-top: 20px;">Checkout</a>
+        </div>
+
+        <div> 
+            <table class="table table-striped" id="customers-table">
+                <tr>
+                    <th class="col-sm-3">Item</th>
+                    <th class="col-sm-7">Description</th>
+                    <th class="col-sm-3">Price</th>
+                    <th class="col-sm-3">Order</th>
+                </tr>
+                <tr>
+                    <div>
+                    <td>Shrimp<img src= "shrimp.png"></td>
+                    <td><p class="vertical-center">These are not from the river, son</p></td>
+                    <td><p class="vertical-center">20 $</p></td>
+                    <td><button style="transform: translateY(100%); "class="btn btn-success" id="order-btn-1" >Order</button></td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>Mariachi<img src= "mariachi.png"></td>
+                    <td><p style="transform: translateY(190%);">Playing music all day long, baby!</p></td>
+                    <td><p style="transform: translateY(190%);">20 $</p></td>
+                    <td><button style="transform: translateY(100%);" class="btn btn-success" id="order-btn-2" >Order</button></td>
+                </tr>
+                <tr>
+                    <td>Taco <img style="margin-left: 15px;" src= "taco.png"></td>
+                    <td><p style="transform: translateY(200%);">Wrapped Paradise, specially for you</p></td>
+                    <td><p style="transform: translateY(200%);">20 $</p></td>
+                    <td><button style="transform: translateY(100%);" class="btn btn-success" id="order-btn-3" >Order</button></td>
+                </tr>
+            </table>
+        </div>
+            <div style="display: flex; justify-content: space-between">
+            <h2>Your Shopping Cart</h2>
+            <div style="display: flex; width: 200px; justify-content: space-between; margin-right: 60px;">
+                <div style="display: flex; width: 200px; justify-content: space-around; margin-right: 100px;">
+                <p style="margin-top: 30px; margin-right: 10px; font-weight: bold;">Total</p>
+                <div style="margin-top: 30px; margin-right: 10px;" class="counter">0</div>
+                <p style="margin-top: 30px; font-weight: bold;">$</p>
+                </div>
+                <button class="btn btn-warning" id="reset-btn" style="height: 35px; margin-top: 20px;">Empty Cart</button>
+            </div>
+            </div>
+                <div>
+                    <table class="table table-striped" id="cart-table">
+                        <tr>
+                            <th class="col-sm-3">Item</th>
+                            <th class="col-sm-7">Description</th>
+                            <th class="col-sm-3">Price</th>
+                            <th class="col-sm-6">Remove</th>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div><hr><br><br>
+    <footer><img src="footer.png" alt="Nature" class="responsive"></footer>
+</body>
+</html>
