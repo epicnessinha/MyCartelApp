@@ -6,9 +6,13 @@ Group project (team "ByteMyCache"), winner of 2nd place in the competition <Acad
 
 ## Team "ByteMyCache" contacts: 
 [Vinicius Rosa - Team Leader](https://www.linkedin.com/in/deviniciuss/)
+<br>
 [Vanessa Ferreira](https://www.linkedin.com/in/vanessabio/)
+<br>
 [Nuno Garrido](https://www.linkedin.com/in/nunogarrido15/)
+<br>
 [Filipe Ferreira](https://www.linkedin.com/in/the-one-filipe-ferreira/)
+<br>
 [Rita Krupiej](https://www.linkedin.com/in/krpjrita/)
 
 ## License
