@@ -3,6 +3,8 @@ Group project (team "ByteMyCache"), winner of 2nd place in the competition <Acad
 
 ## Visuals
 <img src="https://github.com/deviniciuss/MyCartel/blob/main/frontEnd/assets/images/siteGIF.gif" alt="drawing" width="70%"/>
+<h6 align="left">Author Image: Vinicius Rosa</h6>
+<br>
 
 ## Team "ByteMyCache" contacts: 
 [Vinicius Rosa - Team Leader](https://www.linkedin.com/in/deviniciuss/)
